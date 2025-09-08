@@ -1,4 +1,0 @@
-train: C:\Users\ksh16\Downloads\techkrate vehicle damage detection\vehicle_damage_yolo\train\images
-val: C:\Users\ksh16\Downloads\techkrate vehicle damage detection\vehicle_damage_yolo\valid\images
-nc: 1
-names: ['damage']
