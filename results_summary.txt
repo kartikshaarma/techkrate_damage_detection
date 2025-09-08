@@ -1,0 +1,18 @@
+=== Model Summary ===
+Model: runs/vehicle_damage_yolov8m/weights/best.pt
+Dataset: C:\Users\ksh16\Downloads\techkrate vehicle damage detection\vehicle_damage_yolo\data.yaml
+Images evaluated (elapsed): 52s
+Precision (metrics/precision(B)): 0.861
+Recall (metrics/precision(B)): 0.861
+mAP50 (metrics/mAP50(B)): 0.844
+mAP50-95 (metrics/mAP50-95(B)): 0.619
+======================
+
+raw_results_keys:
+[
+  "metrics/precision(B)",
+  "metrics/recall(B)",
+  "metrics/mAP50(B)",
+  "metrics/mAP50-95(B)",
+  "fitness"
+]

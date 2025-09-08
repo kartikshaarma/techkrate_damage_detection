@@ -1,0 +1,13 @@
+# requirements.txt for Vehicle Damage Detection (YOLOv8 project)
+
+# Core dependencies
+ultralytics==8.2.90     # YOLOv8 framework (adjust version if newer/stable needed)
+pillow>=10.0.0          # For image handling (PIL)
+pyyaml>=6.0.1           # For reading/writing YAML configs
+streamlit>=1.25.0
+tqdm>=4.65.0
+
+# Optional but recommended
+numpy>=1.23.5           # Array operations
+opencv-python>=4.8.0    # Image augmentations, visualization
+matplotlib>=3.7.0       # Plotting results (YOLO uses this in reports)
