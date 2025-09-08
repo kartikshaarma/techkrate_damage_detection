@@ -6,7 +6,7 @@ pillow>=10.0.0          # For image handling (PIL)
 pyyaml>=6.0.1           # For reading/writing YAML configs
 streamlit>=1.25.0
 tqdm>=4.65.0
-
+gdown
 # Optional but recommended
 numpy>=1.23.5           # Array operations
 opencv-python>=4.8.0    # Image augmentations, visualization

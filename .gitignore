@@ -1,37 +1,28 @@
-# Python cache
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual environments
-.env
-.venv
+# virtualenvs
+.venv/
 .yolo_env/
 venv/
-ENV/
 
-# IDE/OS files
-.DS_Store
-Thumbs.db
+# IDE / OS
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
-# Ultralytics YOLO outputs
+# outputs & datasets
 runs/
-*.jpg.cache
-*.png.cache
-*.jpeg.cache
-labels.cache
+Trained_dataset/
+master_dataset/
+vehicle_damage_yolo/
 
-# Model weights (keep them out of repo, host separately)
+# model weights (we host externally)
 *.pt
 *.pth
 *.onnx
-*.engine
-*.torchscript
-*.mlmodel
-*.tflite
 
-# Logs
+# logs
 *.log
