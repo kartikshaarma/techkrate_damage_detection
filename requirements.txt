@@ -9,5 +9,5 @@ tqdm>=4.65.0
 gdown
 # Optional but recommended
 numpy>=1.23.5           # Array operations
-opencv-python>=4.8.0    # Image augmentations, visualization
+opencv-python-headless==4.8.0.74    # Image augmentations, visualization
 matplotlib>=3.7.0       # Plotting results (YOLO uses this in reports)
