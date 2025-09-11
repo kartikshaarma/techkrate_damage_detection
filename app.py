@@ -3,9 +3,9 @@ import os
 import streamlit as st
 from pathlib import Path
 from ultralytics import YOLO
+import cv2
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
-import cv2
 import time
 
 # ---------------- CONFIG ----------------

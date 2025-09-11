@@ -3,7 +3,7 @@
 # Core dependencies
 streamlit>=1.25.0
 ultralytics==8.2.90  
-opencv-python>=4.8.0   # YOLOv8 framework (adjust version if newer/stable needed)
+opencv-python-headless>=4.8.0.76   # YOLOv8 framework (adjust version if newer/stable needed)
 pillow>=10.0.0          # For image handling (PIL)
 pyyaml>=6.0.1           # For reading/writing YAML configs
 
