@@ -1,0 +1,15 @@
+runs/
+data/
+master_dataset/
+Trained_dataset/
+vehicle_damage_yolo/okayb
+backups/
+.venv/
+.yolo_env/
+__pycache__/
+*.pt
+*.ckpt
+*.zip
+*.tar
+.git/
+node_modules/

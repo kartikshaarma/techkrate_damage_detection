@@ -13,3 +13,7 @@ gdown
 numpy>=1.23.5           # Array operations
     # Image augmentations, visualization
 matplotlib>=3.7.0       # Plotting results (YOLO uses this in reports)
+fastapi
+uvicorn[standard]
+google-cloud-storage
+python-multipart
